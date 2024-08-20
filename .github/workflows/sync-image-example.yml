@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://hub.docker.com/r/arm64v8/redis docker://registry.cn-hangzhou.aliyuncs.com/chappie/arm64v8/redis:6.2.14
+         skopeo copy https://hub.docker.com/r/arm64v8/redis docker://registry.cn-hangzhou.aliyuncs.com/chappie/arm64v8/redis:6.2.14
          
          
          
